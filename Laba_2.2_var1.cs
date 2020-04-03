@@ -17,17 +17,17 @@ namespace Laba_2._2_var1
     {
         static void Main(string[] args)
         {
-            Aircraft aircraft1 = new Aircraft("1", "Lg", 300, 400, 10000,2);  // №, name, total capacity, carrying capacity, distance, fuel
-            Aircraft aircraft2 = new Aircraft("2", "Lg", 300, 400, 10000, 2);
-            Aircraft aircraft3 = new Aircraft("3", "Lg", 300, 400, 10000, 2);
-            Aircraft aircraft4 = new Aircraft("4", "Lg", 300, 400, 10000, 2);
-            Aircraft aircraft5 = new Aircraft("5", "Lg", 300, 400, 10000, 2);
-            Aircraft aircraft6 = new Aircraft("6", "Lg", 300, 400, 10000, 2);
-            Aircraft aircraft7 = new Aircraft("7", "Lg", 300, 400, 10000, 2);
-            Aircraft aircraft8 = new Aircraft("8", "Lg", 300, 400, 10000, 2);
-            Aircraft aircraft9 = new Aircraft("9", "Lg", 300, 400, 10000, 2);
-            Aircraft aircraft10 = new Aircraft("10", "Lg", 300, 400, 10000, 2);
-            Stock stock = new Stock(aircraft1, aircraft1, aircraft1, aircraft1, aircraft1, aircraft1, aircraft1, aircraft1, aircraft1, aircraft1);
+            Aircraft aircraft1 = new Aircraft("1", "May", 300, 400, 1000, 3452);  // №, name, total capacity, carrying capacity, distance, fuel
+            Aircraft aircraft2 = new Aircraft("2", "Lufthansa", 250, 500, 1200, 2345);
+            Aircraft aircraft3 = new Aircraft("3", "Air France", 280, 1000, 800, 3458);
+            Aircraft aircraft4 = new Aircraft("4", "Belavia", 100, 300, 900, 9854);
+            Aircraft aircraft5 = new Aircraft("5", "Turkish", 350, 450, 5000, 2459 );
+            Aircraft aircraft6 = new Aircraft("6", "Pegasus", 210, 900, 3000, 2509);
+            Aircraft aircraft7 = new Aircraft("7", "Delta", 950, 390, 1500,3342);
+            Aircraft aircraft8 = new Aircraft("8", "American", 550, 700, 8000, 3400);
+            Aircraft aircraft9 = new Aircraft("9", "Emirates", 370, 870, 10000, 15000);
+            Aircraft aircraft10 = new Aircraft("10", "Finnair", 750, 560, 450, 1000);
+            Stock stock = new Stock(aircraft1, aircraft2, aircraft3, aircraft4, aircraft5, aircraft6, aircraft7, aircraft8, aircraft9, aircraft10);
             //stock.ShowList();
             //Console.WriteLine(" ");
             stock.SortByDistance();
